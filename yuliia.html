@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <!-- External css -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css" />
     <!-- Internal css -->
     <style>
       :root {
@@ -33,12 +33,21 @@
     <div class="container">
       <!-- Content here -->
       <!-- Header -->
-      <Header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f3f3;">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f3f3">
           <div class="container">
-            <a class="navbar-brand" href="yuliia.html"><img src="/images/logo_qa.png" alt="" width="50" height="50">
-              <span class="logo">Test-Page</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="yuliia.html"
+              ><img src="/images/logo_qa.png" alt="" width="50" height="50" /> <span class="logo">Test-Page</span></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -53,40 +62,84 @@
                   <a class="nav-link" href="olha.html">Forms</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
                     Components
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li class="dropdown-item"><a href="#accordion" class="list-group-item list-group-item-action">Accordion</a></li>
-                      <li class="dropdown-item"><a href="#alert" class="list-group-item list-group-item-action">Alert</a></li>
-                      <li class="dropdown-item"><a href="#badges" class="list-group-item list-group-item-action">Badges</a></li>
-                      <li class="dropdown-item"><a href="#buttonGroup" class="list-group-item list-group-item-action">Button group</a></li>
-                      <li class="dropdown-item"><a href="#cards" class="list-group-item list-group-item-action">Cards</a></li>
-                      <li class="dropdown-item"><a href="#carousel" class="list-group-item list-group-item-action">Carousel</a></li>
-                      <li class="dropdown-item"><a href="#collapse" class="list-group-item list-group-item-action">Collapse</a></li>
-                      <li class="dropdown-item"><a href="#dropdowns" class="list-group-item list-group-item-action">Dropdowns</a></li>
-                      <li class="dropdown-item"><a href="#listGroup" class="list-group-item list-group-item-action">List group</a></li>
-                      <li class="dropdown-item"><a href="#modal" class="list-group-item list-group-item-action">Modal</a></li>
-                      <li class="dropdown-item"><a href="#navbar" class="list-group-item list-group-item-action">Navbar</a></li>
-                      <li class="dropdown-item"><a href="#navsAndTabs" class="list-group-item list-group-item-action">Navs and tabs</a></li>
-                      <li class="dropdown-item"><a href="#offcanvas" class="list-group-item list-group-item-action">Offcanvas</a></li>
-                      <li class="dropdown-item"><a href="#pagination" class="list-group-item list-group-item-action">Pagination</a></li>
-                      <li class="dropdown-item"><a href="#placeholders" class="list-group-item list-group-item-action">Placeholders</a></li>
-                      <li class="dropdown-item"><a href="#popovers" class="list-group-item list-group-item-action">Popovers</a></li>
-                      <li class="dropdown-item"><a href="#progress" class="list-group-item list-group-item-action">Progress</a></li>
-                      <li class="dropdown-item"><a href="#scrollspy" class="list-group-item list-group-item-action">Scrollspy</a></li>
-                      <li class="dropdown-item"><a href="#spinners" class="list-group-item list-group-item-action">Spinners</a></li>
-                    
+                    <li class="dropdown-item">
+                      <a href="#accordion" class="list-group-item list-group-item-action">Accordion</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#alert" class="list-group-item list-group-item-action">Alert</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#badges" class="list-group-item list-group-item-action">Badges</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#buttonGroup" class="list-group-item list-group-item-action">Button group</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#cards" class="list-group-item list-group-item-action">Cards</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#carousel" class="list-group-item list-group-item-action">Carousel</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#collapse" class="list-group-item list-group-item-action">Collapse</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#dropdowns" class="list-group-item list-group-item-action">Dropdowns</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#listGroup" class="list-group-item list-group-item-action">List group</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#modal" class="list-group-item list-group-item-action">Modal</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#navbar" class="list-group-item list-group-item-action">Navbar</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#navsAndTabs" class="list-group-item list-group-item-action">Navs and tabs</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#offcanvas" class="list-group-item list-group-item-action">Offcanvas</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#pagination" class="list-group-item list-group-item-action">Pagination</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#placeholders" class="list-group-item list-group-item-action">Placeholders</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#popovers" class="list-group-item list-group-item-action">Popovers</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#progress" class="list-group-item list-group-item-action">Progress</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#scrollspy" class="list-group-item list-group-item-action">Scrollspy</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a href="#spinners" class="list-group-item list-group-item-action">Spinners</a>
+                    </li>
                   </ul>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
-      </Header>
+      </header>
 
       <!-- Accordion -->
-      <section id="accordion" style="margin-top: 100px;">
+      <section id="accordion">
         <div class="accordion margin-vertical" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -1053,7 +1106,11 @@
               Large button
             </button>
             <ul class="dropdown-menu">
-              ...
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
             </ul>
           </div>
           <div class="btn-group">
@@ -1067,7 +1124,11 @@
               <span class="visually-hidden">Toggle Dropdown</span>
             </button>
             <ul class="dropdown-menu">
-              ...
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
             </ul>
           </div>
         </div>
