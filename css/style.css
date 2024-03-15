@@ -7,3 +7,9 @@ body {
     font-weight: bold;
     color: #03899a;
 }
+
+.component-title {
+    color: #6b1264;
+    font-weight: bold;
+    /* margin-left: 5px; */
+}
