@@ -1,15 +1,41 @@
 body {
-    background-color: #e3f3f3;
+  background-color: #e3f3f3;
 }
 
 .logo {
-    margin-left: 10px;
-    font-weight: bold;
-    color: #03899a;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #03899a;
 }
 
 .component-title {
-    color: #6b1264;
-    font-weight: bold;
-    /* margin-left: 5px; */
+  font-size: x-large;
+  color: #6b1264;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* margin-left: 5px; */
+}
+.component-subtitle {
+  font-size: large;
+  color: #d38acd;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 20px;
+  /* margin-left: 5px; */
+}
+
+.top-80 {
+  padding-top: 80px;
+}
+
+h4,
+h5 {
+  font-size: large;
+  font-style: italic;
+  color: #d38acd;
+  font-weight: 400;
+  text-transform: capitalize;
+
+  margin-top: 20px;
+  /* margin-left: 5px; */
 }
