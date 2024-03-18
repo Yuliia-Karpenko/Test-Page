@@ -1,3 +1,30 @@
 body {
     background-color: aqua;
 }
+
+.form-type {
+    font-size: larger;
+    color: rgb(255, 3, 70);
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 50px;
+    /* margin-left: 5px; */}
+.form-control-color {
+    margin-bottom: 20px;
+}
+.btn-primary {
+    margin-top: 20px;
+}
+.form-label-select {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+h6 {
+    margin-top: 20px;
+    color: blue;
+}
