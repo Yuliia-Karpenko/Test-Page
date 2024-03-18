@@ -89,6 +89,7 @@
                   <ul
                     class="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
+                    style="overflow-y: scroll; max-height: 70vh"
                   >
                     <li class="dropdown-item">
                       <a
@@ -228,6 +229,13 @@
                         href="#toasts"
                         class="list-group-item list-group-item-action"
                         >Toasts</a
+                      >
+                    </li>
+                    <li class="dropdown-item">
+                      <a
+                        href="#tooltips"
+                        class="list-group-item list-group-item-action"
+                        >Tooltips</a
                       >
                     </li>
                   </ul>
@@ -4426,6 +4434,48 @@
         </div>
       </section>
 
+      <!-- Tooltips -->
+      <section id="tooltips" class="top-80 margin-vertical">
+        <h2 class="component-title">Tooltips</h2>
+
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          data-bs-title="Tooltip on top"
+        >
+          Tooltip on top
+        </button>
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-toggle="tooltip"
+          data-bs-placement="right"
+          data-bs-title="Tooltip on right"
+        >
+          Tooltip on right
+        </button>
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-toggle="tooltip"
+          data-bs-placement="bottom"
+          data-bs-title="Tooltip on bottom"
+        >
+          Tooltip on bottom
+        </button>
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-toggle="tooltip"
+          data-bs-placement="left"
+          data-bs-title="Tooltip on left"
+        >
+          Tooltip on left
+        </button>
+      </section>
+
       <!-- 
 
 
@@ -4524,6 +4574,17 @@
           toastBootstrap.show();
         });
       }
+    </script>
+
+    <!-- Tooltips script -->
+
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
     </script>
   </body>
 </html>
