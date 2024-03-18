@@ -89,7 +89,7 @@
                   <ul
                     class="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
-                    style="overflow-y: scroll; max-height: 70vh"
+                  
                   >
                     <li class="dropdown-item">
                       <a
@@ -245,6 +245,8 @@
           </div>
         </nav>
       </header>
+<main class="components">
+
 
       <!-- Accordion -->
       <section id="accordion" class="top-80">
@@ -4344,13 +4346,49 @@
       <section id="spinners" class="margin-vertical">
         <h2 class="component-title top-80">Spinners</h2>
 
-        <div class="spinner-border margin-vertical" role="status">
-          <span class="visually-hidden">Loading...</span>
+        <div class="d-flex gap-3 margin-vertical">
+          <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+
+          <div class="spinner-grow text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+
+          <button class="btn btn-primary" type="button" disabled>
+            <span
+              class="spinner-border spinner-border-sm"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden" role="status">Loading...</span>
+          </button>
+          <button class="btn btn-primary" type="button" disabled>
+            <span
+              class="spinner-border spinner-border-sm"
+              aria-hidden="true"
+            ></span>
+            <span role="status">Loading...</span>
+          </button>
+
+          <button class="btn btn-primary" type="button" disabled>
+            <span
+              class="spinner-grow spinner-grow-sm"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden" role="status">Loading...</span>
+          </button>
+          <button class="btn btn-primary" type="button" disabled>
+            <span
+              class="spinner-grow spinner-grow-sm"
+              aria-hidden="true"
+            ></span>
+            <span role="status">Loading...</span>
+          </button>
         </div>
       </section>
 
       <!-- Toasts -->
-      <section id="toasts">
+      <section id="toasts" class="top-80 margin-vertical">
         <h2 class="component-title">Toasts</h2>
 
         <button
@@ -4436,7 +4474,7 @@
 
       <!-- Tooltips -->
       <section id="tooltips" class="top-80 margin-vertical">
-        <h2 class="component-title">Tooltips</h2>
+        <h2 class="component-title margin-vertical">Tooltips</h2>
 
         <button
           type="button"
@@ -4475,15 +4513,22 @@
           Tooltip on left
         </button>
       </section>
-
       <!-- 
-
-
-       -->
+        
+        
+      -->
+    </main>
       <!-- ----------------------- -->
-    </div>
-    <div class="" style="margin-bottom: 200px"></div>
 
+      <footer>
+
+      </div>
+      <div class="" style="margin-bottom: 200px"></div>
+    </footer>
+
+
+     <!-- ----------------------- -->
+      
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
